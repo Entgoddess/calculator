@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+
+    <script type="text/javascript" src="/vendors/jquery.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/app.js"></script>
+</head>
+<body>
+<div class="container well">
+    <div class="jumbotron">
+    <h1>Calculator</h1>
+    </div>
+    <form id="inputForm">
+        <label for="valueInput1">First Value: </label>
+        <input type="text" id="valueInput1" name="valueInput" placeholder="Enter a value"><br>
+
+        <label for="valueInput2">Second Value: </label>
+        <input type="text" id="valueInput2" name="valueInput" placeholder="Enter a value"><br>
+
+        <!--<input type="submit" id="submitButton" class="btn btn-submit" value="Submit">-->
+    </form>
+    <div class="buttons">
+    <button id='add' class="btn btn-info">+</button>
+    <button id='subtract' class="btn btn-warning">-</button>
+    <button id='multiply' class="btn btn-info">*</button>
+    <button id='divide' class="btn btn-warning">%</button>
+    </div>
+
+    <button id="submit" class="btn btn-submit">Equals</button>
+
+    <div id='results' class="well"></div>
+
+    <button id="clear" class="btn btn-danger">Clear</button>
+</div>
+
+</body>
+</html>
